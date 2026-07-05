@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# env
+.venv/
+.env
+
+# input/output
+input/
+output/
+
+# docs
+*.docx
+
+# misc
+.DS_Store
