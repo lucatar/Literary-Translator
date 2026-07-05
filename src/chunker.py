@@ -43,3 +43,48 @@ class Chunker:
             chunks.append(" ".join(current_chunk))
 
         return chunks
+    
+    def create_chunks_structured(self, scene: list[dict]):
+
+        chunks = []
+        current_chunk = []
+
+        for p in scene:
+
+            text = p["text"]
+
+            # -----------------------
+            # SIMPLE RULE (v1)
+            # -----------------------
+
+            # ha heading → külön chunk
+            if p.get("style", "").startswith("Heading"):
+                if current_chunk:
+                    chunks.append(self._merge(current_chunk))
+                    current_chunk = []
+
+                chunks.append({
+                    "text": text,
+                    "style": p.get("style", "Normal")
+                })
+                continue
+
+            # normál bekezdés
+            current_chunk.append(p)
+
+        if current_chunk:
+            chunks.append(self._merge(current_chunk))
+
+        return chunks
+
+    def _merge(self, paragraphs: list[dict]):
+
+        text = "\n".join(p["text"] for p in paragraphs)
+
+        # style öröklés (egyszerű szabály)
+        style = paragraphs[0].get("style", "Normal")
+
+        return {
+            "text": text,
+            "style": style
+        }

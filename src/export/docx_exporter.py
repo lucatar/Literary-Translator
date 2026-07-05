@@ -9,19 +9,37 @@ class DocxExporter:
     def add_chunks(self, chunks):
 
         for chunk in chunks:
+            
+            # -----------------------
+            # BACKWARD SAFE HANDLING
+            # -----------------------
+            if isinstance(chunk, str):
+                self.doc.add_paragraph(chunk)
+                continue
 
-            paragraphs = chunk.split("\n")
+            text = chunk.get("text", "")
+            style = chunk.get("style", "Normal")
 
-            for text in paragraphs:
+            if not text:
+                continue
 
-                text = text.strip()
+            # -----------------------
+            # PARAGRAPH
+            # -----------------------
+            p = self.doc.add_paragraph()
 
-                if text:
-                    self._add_paragraph(text)
+            # style only (NO CRASH EVER)
+            if style:
+                try:
+                    p.style = style
+                except Exception:
+                    p.style = "Normal"
 
-    def _add_paragraph(self, text):
-
-        self.doc.add_paragraph(text)
+            # -----------------------
+            # TEXT ONLY (no runs for now)
+            # -----------------------
+            #print(text, style)
+            p.add_run(text)
 
     def save(self, output_path: str):
         self.doc.save(output_path)

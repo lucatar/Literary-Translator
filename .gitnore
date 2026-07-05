@@ -1,12 +1,17 @@
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-.env
+# env
 .venv/
+.env
 
-output/
+# input/output
 input/
+output/
 
+# docs
 *.docx
+
+# misc
+.DS_Store

@@ -40,6 +40,10 @@ def run_pipeline(input_path: str, output_path: str):
 
     parser = DocumentParser(input_path)
     paragraphs = parser.read()          # LIST[str]
+
+    structured = parser.read_structured()
+
+    print(structured[0])
     
     raw_text = "\n".join(paragraphs)    # STRING
 
@@ -48,9 +52,11 @@ def run_pipeline(input_path: str, output_path: str):
     # -------------------
 
     scene_splitter = SceneSplitter()
-    scenes = scene_splitter.split(raw_text)   # STRING IN / STRING OUT
-    print("=== FIRST SCENE ===")
-    print(repr(scenes[0][:500]))
+    #scenes = scene_splitter.split(raw_text)   # STRING IN / STRING OUT
+    scenes = scene_splitter.split_structured(structured)
+
+    #print(scenes[0])
+    
     # -------------------
     # 3. CHUNKING
     # -------------------
@@ -59,8 +65,13 @@ def run_pipeline(input_path: str, output_path: str):
     chunks = []
 
     for scene in scenes:
-        scene_chunks = chunker.create_chunks(scene)
+
+        #scene_text = "\n".join(p["text"] for p in scene)
+
+        scene_chunks = chunker.create_chunks_structured(scene)
         chunks.extend(scene_chunks)
+
+    print(chunks[0])
 
     # -------------------
     # ANALYSIS CACHE
@@ -184,7 +195,10 @@ def run_pipeline(input_path: str, output_path: str):
     # -------------------
     # EXPORT
     # -------------------
-
+    #print(translated_chunks[0])   
+    for i, chunk in enumerate(chunks[:5]):
+        print(f"Chunk {i}:")
+        print(chunk)
     exporter = DocxExporter()
     exporter.add_chunks(translated_chunks)
     exporter.save(output_path)
@@ -219,5 +233,5 @@ if __name__ == "__main__":
 
     analysis_cache = run_pipeline(
         input_path="input/manuscript.docx",
-        output_path="output/translated.docx"
+        output_path="output/translated_style.docx"
     )
