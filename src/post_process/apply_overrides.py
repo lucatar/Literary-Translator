@@ -21,20 +21,19 @@ def apply_translation_overrides(output_docx, knowledge_base_dir):
 
     for para in doc.paragraphs:
 
-        text = para.text
+        for run in para.runs:
 
-        for old, new in overrides.items():
+            text = run.text
 
-            if old == new:
-                continue
+            for old, new in overrides.items():
 
-            pattern = re.compile(
-                rf"\b{re.escape(old)}\b"
-            )
+                if old == new:
+                    continue
 
-            text = pattern.sub(new, text)
+                pattern = re.compile(rf"\b{re.escape(old)}\b")
+                text = pattern.sub(new, text)
 
-        para.text = text
+            run.text = text
 
     doc.save(output_docx)
 

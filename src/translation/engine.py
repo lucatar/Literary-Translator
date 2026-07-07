@@ -7,7 +7,7 @@ class TranslationEngine:
 
     def translate_document(
         self,
-        chunks,            # <-- STRING chunks
+        chunks,
         style_profiles,
         pov_analysis,
         glossary
@@ -20,12 +20,11 @@ class TranslationEngine:
             # -----------------------
             # CACHE
             # -----------------------
-
             cached = self.cache.get_translated_chunk(i)
 
             if cached:
                 print(f"Chunk {i} loaded from cache")
-                translated_chunks.append(cached["text"])
+                translated_chunks.append(cached)
                 continue
 
             print(f"Translating chunk {i}")
@@ -33,7 +32,6 @@ class TranslationEngine:
             # -----------------------
             # STYLE SELECTION
             # -----------------------
-
             pov = pov_analysis[i]["pov"]
             style = style_profiles.get(pov)
 
@@ -42,10 +40,9 @@ class TranslationEngine:
                 style = next(iter(style_profiles.values()))
 
             # -----------------------
-            # TRANSLATION (STRING IN → STRING OUT)
+            # TRANSLATION (STRUCTURED)
             # -----------------------
-
-            translated = self.translator.translate_chunk(
+            translated_chunk = self.translator.translate_chunk(
                 chunk,
                 style=style,
                 glossary=glossary
@@ -54,15 +51,8 @@ class TranslationEngine:
             # -----------------------
             # CACHE SAVE
             # -----------------------
+            self.cache.save_translated_chunk(i, translated_chunk)
 
-            self.cache.save_translated_chunk(
-                i,
-                {
-                    "id": i,
-                    "text": translated
-                }
-            )
-
-            translated_chunks.append(translated)
+            translated_chunks.append(translated_chunk)
 
         return translated_chunks

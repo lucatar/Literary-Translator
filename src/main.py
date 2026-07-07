@@ -71,8 +71,7 @@ def run_pipeline(input_path: str, output_path: str):
         scene_chunks = chunker.create_chunks_structured(scene)
         chunks.extend(scene_chunks)
 
-    print(chunks[0])
-
+    
     # -------------------
     # ANALYSIS CACHE
     # -------------------
@@ -169,6 +168,7 @@ def run_pipeline(input_path: str, output_path: str):
     # TRANSLATION
     # -------------------
 
+
     translator = Translator()
 
     translation_cache = TranslationCacheManager(
@@ -186,7 +186,7 @@ def run_pipeline(input_path: str, output_path: str):
     )
 
     translated_chunks = engine.translate_document(
-        chunks,
+        chunks[:2],
         style_profiles,
         pov_analysis,
         glossary
@@ -196,19 +196,17 @@ def run_pipeline(input_path: str, output_path: str):
     # EXPORT
     # -------------------
     #print(translated_chunks[0])   
-    for i, chunk in enumerate(chunks[:5]):
-        print(f"Chunk {i}:")
-        print(chunk)
+
     exporter = DocxExporter()
     exporter.add_chunks(translated_chunks)
-    exporter.save(output_path)
+    #exporter.save(output_path)
 
 # -------------------
 
     # 5. TRANSLATION OVERRIDES
 
     # -------------------
-
+    
     build_translation_overrides(
 
         "project/knowledge_base"
@@ -219,11 +217,12 @@ def run_pipeline(input_path: str, output_path: str):
 
     apply_translation_overrides(
 
-        output_path,
+        "output/translated_style.docx",
 
         "project/knowledge_base"
 
     )
+    
     print("DONE 🚀")
 
     return analysis_cache

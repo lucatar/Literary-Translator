@@ -1,4 +1,492 @@
-{
-  "id": 1,
-  "text": "\"Your shirt’s hanging off you again—I can see it from here. At least eat this apple on your way!\"\n\"Thank you, Mrs. Mellow. I’ll pay you on the way back!\"\nShe only shook her head. Caleb slid the apple into his bag and ran on. He tried to flag down a two-horse mail coach heading for the shipping company’s headquarters, but it didn’t stop; the old postman on the box might not have seen him at all.\n\nUnder other circumstances he’d have been glad to walk. The harbor was close, and the sea’s salt was strong in the air. On workday mornings he liked to take a detour, eat his breakfast to the slap of waves and the gulls’ cries. Today he had to settle for two deep breaths and the distant carry of ropes, winches, and sailors’ shouts. It could have been worse. At least it wasn’t raining, and there was no mud to cling to his shoes and complete the sorry picture.\n\nBy the time he reached the Western Shipping Company’s modern offices, sweat was running down his back. He didn’t bother to check his pocket watch to see how late he was. He hurried up the steps into the maroon-carpeted hall and asked at the desk where the hearing was.\n\nHe took the stairs to the first-floor conference room and paused at the door to catch his breath. After the sprint, he wanted his head clear—he had to back Lord Ebbing. Voices carried from inside; they had started without him. Not that he was anyone they’d wait for. He drew a long breath and pressed the big brass handle.\n\n“You told us it was safe, Lord Ebbing!” Lord Denver slammed the table—one of the Western Shipping Company’s leading directors, and owner of the most recently vanished ship, the Daughter of the Wind. He was nearer eighty than seventy, but tall and straight-backed, his hair gone snow-white and his blue eyes cold. Like many old men he wore his beard long, trimmed by the best barbers into a severe, squared shape. When Caleb and Lord Ebbing had gone over what to expect, both had guessed they’d be facing him. Kindness seemed unlikely.\n\nThere were several others around the table. Besides Lord Denver, Caleb recognized Mr. Powlett, a thin man in his forties whose skin looked like yellow wax beginning to soften in the heat of the hearth. He oversaw the financial side of trade with the Colonies but, like Lord Ebbing, had a scholar’s heart. Mr. Nealy was there as well—father to William, one of Caleb’s good friends. Like his son, his flame-red hair already held grey, but warmth shone in his brown eyes. Two other men were strangers, bringing the committee to five. In the corner at a small separate table sat a lanky, hawk-nosed secretary, her typewriter clacking as she took notes.\n\n“I said probably safe, Lord Denver. I have statistics, not command of the sea,” Lord Ebbing shot back, just as heated. Caleb’s immediate superior and mentor was a short, stout man in his sixties, bald on top as if his hair had migrated to the sides of his face where he kept it as whiskers, his chin clean-shaven—an exact inversion of Lord Denver. His head was flushed now, his brow shiny with sweat. Caleb had been there when the summons arrived and had seen how hard the Daughter of the Wind’s disappearance had hit Ebbing. Being called to account only made him more taut.\n\n“So you’re saying you know nothing at all, and we should have drunk the funds we gave your research instead? Mrs. Sweets, note that down.”\n“No, don’t. Mr. André—show them what you brought!”\n\nCaleb flinched. He hadn’t known Ebbing had seen him come in; apparently he had, and hadn’t spared him even a nod in the heat of the quarrel. Caleb stepped forward and took the folded calendar from his case. Mr. Nealy hurried to help him fasten it to a large wooden board.\n\nOn it, green dots marked sailings that had completed the round trip; blue, those reported to have reached their destination but never returned; red, the ships that had vanished. Seen at a distance, the calendar showed an unmistakable pattern, outliers aside. At least until the past year.\n\n“Good morning, gentlemen,” Caleb began, heart thudding as on every exam, though he’d graduated years ago. “As you can see, Lord Ebbing and I conducted an extensive study of the Western Ocean’s navigability. We didn’t only look at sailings out of Rivenstorm—we corresponded with Scalmoor and Einfjalla, and asked the Academy in Tineburgh to send over any records they had or could compile. The result is here. Although this chart shows only the past five years, the pattern runs much further back.\n\n“If you look, every third new moon and through the month that follows, there are only rare disappearances. We treated those as outliers. Losses cluster heavily in the two weeks before those third new moons. Taken together, the data are cyclical. That cannot be chance.” He glanced at Lord Ebbing, who gave a small nod—go on. “On that basis our department forecast the optimal launch windows, when ships were most likely to make the run to the Colonies and back, accounting for ordinary weather variation as well.\n\n“However, here you can see…” Caleb bent to indicate the panel showing the last year at the bottom of the poster. “…the pattern has begun to break apart. First here in Rivenstorm, then in our correspondents’ ports as well, as if the disharmony were spreading to other routes.”\n\nHe fell silent. Every eye was on him, but that was as far as he and Lord Ebbing had planned.\n\n“And from this, Mr. André, you conclude…?” Lord Denver prompted, fairly enough. He wanted a plan. A proposal to mend the breach.\n\n“I conclude we need more data, in case a new pattern is emerging. In earlier years Lord Ebbing’s recommendation worked—every port lost far fewer ships than before—and we advised the Daughter of the Wind’s departure on the same basis. Which, I would note, Lord Denver, you did not follow to the letter.”\n\nThe man flushed.\n\n“And my ship was to sit idle another month in harbor? Do you know what that costs, boy?” His voice rose, but Lord Ebbing cut in.\n\n“Undoubtedly a great deal, but Mr. André is correct. The date was not before the third new moon but the second, where…” Lord Ebbing rose. “…the old pattern did show fewer disappearances. Yet with the new data we could no longer state that the Daughter of the Wind would certainly return. At sea nothing is ever certain—storms see to that—but had you waited until after the third new moon, I suspect your odds would have been better.”\n\n“How dare you—!”"
-}
+[
+  {
+    "text": "Leviathans. Sons of the Thousand-Mouthed Levianoch, the sea’s ever-hungry beasts…",
+    "runs": [
+      {
+        "text": "Leviathans. Sons of the Thousand-Mouthed Levianoch, the sea’s ever-hungry beasts…",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Caleb turned the page. Mythology didn’t interest him at the moment. The existence of leviathans was a fact, corroborated by countless sailors’ accounts, and in the North an Einfjallan sailor had hunted one down fifty years ago; its skull had since been kept at the local Museum of Natural History. Caleb had seen one alive once; it was magnificent, and he could easily imagine that a single bite would be enough to punch a hole in a ship. What concerned him was whether there were any records of these creatures’ habits.",
+    "runs": [
+      {
+        "text": "Caleb turned the page.",
+        "bold": false,
+        "italic": true,
+        "underline": false
+      },
+      {
+        "text": " Mythology didn’t interest him at the moment. The existence of leviathans was a fact, corroborated by countless sailors’ accounts, and in the North an Einfjallan sailor had hunted one down fifty years ago; its skull had since been kept at the local Museum of Natural History. Caleb had seen one alive once; it was magnificent, and he could easily imagine that a single bite would be enough to punch a hole in a ship. What concerned him was whether there were any records of these creatures’ habits.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [
+      {
+        "text": "Caleb turned the page.",
+        "bold": false,
+        "italic": true,
+        "underline": false
+      }
+    ],
+    "style": "Normal"
+  },
+  {
+    "text": "Exceptionally rare. Undeniably predators, and by the reports, territorial.",
+    "runs": [
+      {
+        "text": "Exceptionally rare. Undeniably predators, and by the reports, territorial.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Caleb sighed, then looked at his list and drew a question mark next to the word “leviathan.” It was possible, yet he still thought this wasn’t what he was looking for—unless many leviathans had banded together to hunt ships in cycles at every point of the known world. Besides, every book so far had said that though these creatures were enormous and dangerous, in the end they were still only animals.",
+    "runs": [
+      {
+        "text": "Caleb sighed, then looked at his list and drew a question mark next to the word “leviathan.” It was possible, yet he still thought this wasn’t what he was looking for—unless many leviathans had banded together to hunt ships in cycles at every point of the known world. Besides, every book so far had said that though these creatures were enormous and dangerous, in the end they were still only animals.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He stood from the desk and, one last time, looked over the huge calendar spread on the floor, where the disappearances of ships over the past five years were marked precisely. The where didn’t matter; by their correspondents’ accounts the situation was exactly the same everywhere. In the weeks before every third new moon, disappearances spiked, then in the one or two weeks after new moon there was only the occasional lost ship. Right up until this past year, when the familiar pattern broke and the dots on the calendar evened out instead of waxing and thinning in cycles.",
+    "runs": [
+      {
+        "text": "He stood from the desk and, one last time, looked over the huge calendar spread on the floor, where the disappearances of ships over the past five years were marked precisely. The where didn’t matter; by their correspondents’ accounts the situation was exactly the same everywhere. In the weeks before every third new moon, disappearances spiked, ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "then ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "in the one or two weeks after new moon there was only the occasional lost ship. Right up until this past year, when the familiar pattern broke and the dots on the calendar evened out instead of waxing and thinning in cycles.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Two years ago Lord Ebbing, head of the Oceanographic Institute, had convinced the trading companies, and even Parliament, to launch ships only directly after every third new moon. Those who took his advice crossed safely from the Colonies to Rivenstorm, but whatever was behind the cyclical disappearances adapted to the new order. That frightened not only Lord Ebbing but the trading companies as well.",
+    "runs": [
+      {
+        "text": "Two years ago Lord Ebbing, head of the Oceanographic Institute, had convinced the trading companies, and even Parliament, to launch ships only directly after every third new moon",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": ". ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "Those who took his advice crossed safely from the Colonies to Rivenstorm, but whatever was behind the cyclical disappearances adapted to the new order. That frightened not only Lord Ebbing but the trading companies as well.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He should have been working on the speech. Caleb was Lord Ebbing’s assistant, and more and more his right hand as the scientist grew older. The rest of the Institute’s staff mostly kept to their own research, and they traveled constantly to observe marine weather and wildlife, and once they had the right instruments, to study chemical composition as well. A few braver scholars even tried to map the oceans’ geography, the undersea ridges and trenches, even though it was life-threatening work.",
+    "runs": [
+      {
+        "text": "He should have been working on the speech. Caleb was Lord Ebbing’s assistant, and more and more his right hand as the scientist grew older. The rest of the Institute’s staff mostly kept to their own research, and they traveled constantly to observe marine weather and wildlife, and ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "once they had the right instruments,",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " to study chemical composition as well. A few braver scholars even tried to map the oceans’ geography, the undersea ridges and trenches, even though it was ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "life-",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "threatening work.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Caleb, however, had stayed at the Academy beside Lord Ebbing. Everything about the seas interested him, so in recent years he hadn’t been able to choose among the many possible but very narrow fields of study, and he knew that whatever he chose would inevitably mean he’d have to ship out. Not that he didn’t want to. In truth he wanted nothing more than to cut through the waves on a fast ship, but his parents had always feared the water and had made him promise, again and again, that he would not go to sea. He suspected that was because his father had nearly been lost to the ocean in a shipwreck once. Even so, his heart ached for it, and deep down he felt that one day he would break that promise. But not today. It comforted him that he was doing important work here too, work that might save lives with Lord Ebbing, and that his life’s work would be more than adding another stack of dust-gathering books to the Academy’s great library.",
+    "runs": [
+      {
+        "text": "Caleb, however, had stayed at the Academy beside Lord Ebbing. Everything about the seas interested him, so in recent years he hadn’t been able to choose among the many possible but very narrow fields of study, and he knew that whatever he chose would inevitably mean he’d have to ship out. Not that he didn’t want to. In truth he wanted nothing more than to cut through the waves on a fast ship, but his parents had always feared the water and had made him promise, again and again, that he would not go to sea. He suspected that was because his father had nearly been lost to the ocean in a shipwreck once. Even so, his heart ached for it, and deep down he felt that one day he would break that promise. But",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " not today. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "It comforted him ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "that he was doing important work here too, work that might save lives with Lord Ebbing, and that his life’s work would be more than adding another stack of dust-gathering books to the Academy’s great library.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He carefully folded the huge calendar and slipped it into an oversized briefcase. Lord Ebbing’s hearing had been set for the next day, and Caleb had to appear as well. He had to present the situation and why they hadn’t been able to do anything about it. Of course they had discussed many times what he would say, but he always felt it wasn’t enough. If he’d been on the other side—if it were his ships vanishing and his employees lost to the sea—he would have wanted to know why.",
+    "runs": [
+      {
+        "text": "He carefully folded the huge calendar and slipped it into an oversized briefcase. Lord Ebbing’s hearing had been set for the next day, and Caleb had to appear as well. He had to present the situation and why they hadn’t been able to do anything about it. Of course they had discussed many times what he would say, but he always felt it wasn’t enough. If he’d been on the other side—if it were his ships vanishing and his employees lost to the sea—he would have wanted to know why.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Although it was already very late and he should have gone home long ago, he opened the window instead to let in some fresh air. The autumn air was sharp; mist sifted outside, and through it the city’s still-burning lamps flickered like ghostly will-o’-the-wisps. Music still played from a nearby dance hall, but only ragged scraps of melody drifted into the building of the Rivenstorm Scientific Academy. Caleb didn’t know whether anyone besides the night cleaner and the porter was as foolish as he was, working at such an hour.",
+    "runs": [
+      {
+        "text": "Although it was already very late and he should have gone home long ago, he opened the window instead to let in some fresh air",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": ". The autumn air was sharp; mist sifted outside, and through it the city’s still-burning lamps flickered like ghostly will-o’-the-wisps. Music still played from a nearby dance hall, but only ragged scraps of melody drifted into the building of the Rivenstorm Scientific Academy.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "Caleb didn’t know whether anyone besides the night cleaner and the porter was as foolish as he was, working at such an hour.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He pulled the Encyclopedia of Marine Megafauna back in front of him and, after the leviathans, turned to the krakens. Everyone knew that the cephalopods were surprisingly intelligent animals.",
+    "runs": [
+      {
+        "text": "He",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " pulled the Encyclopedia of Marine Megafauna back in front of him and, after the leviathans, turned to the krakens. Everyone knew that the cephalopods were surprisingly intelligent animals.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He rubbed his face. His eyes burned from all the letters, but he couldn’t rest yet. There was still so much to do. Who would it hurt if he set his forehead on the desk for a moment?",
+    "runs": [
+      {
+        "text": "He rubbed his face. His eyes burned from all the letters, but he couldn’t rest yet. There was still so much to do. Who would it hurt if he set his forehead on the desk for a moment?",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "When the cuckoo clock sounded, Caleb jerked awake, nearly sweeping the pile of papers off the desk where sleep had caught him. Almost without thinking he grabbed for the stack of notes so they wouldn’t scatter across the floor and ruin even the minimal order he had managed to create.",
+    "runs": [
+      {
+        "text": "When the cuckoo clock sounded, Caleb jerked awake, nearly sweeping the pile of papers off the desk where sleep had caught him. Almost without thinking he grabbed for the stack of notes so they wouldn’t scatter across the floor and ruin even the minimal order he had managed to create. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He glanced at the clock, then hurriedly scooped up the papers and the little leather-bound notebook to toss that into his briefcase as well. It was already eight in the morning, and the Western Shipping Company had set Lord Ebbing’s hearing for half past eight. He had originally planned to go home early the night before to sleep, then rise with the sun, bathe, and shave, but the research had dragged on. By seven it had become ten, ten became midnight, and then four in the morning, when sleep finally took him at his desk.",
+    "runs": [
+      {
+        "text": "He glanced at the clock, then hurriedly scooped up the papers and the little leather-bound notebook to toss that into his briefcase as well. It was already ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "eight in the morning, ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "and the Western Shipping Company had set Lord Ebbing’s hearing for half past eight. He had originally planned to go home early the night before to sleep, then rise with the sun, bathe, and shave, but the research had dragged on. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "By",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " seven it had become ten, ten became midnight, and then four in the morning, when sleep finally took him at his desk. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "So instead of a tidy, well-groomed oceanographer, the committee would get an ink-stained, dark-circled, stubbled man who looked more like a feckless student than a serious scholar under Lord Ebbing’s wing. He might at least have changed his shirt, but there was no time for even that. He didn’t even know, why he didn’t keep a change of clothes in the office for just such occasions.",
+    "runs": [
+      {
+        "text": "So instead of a tidy, well-groomed oceanographer, the committee would get an ink-stained, dark-circled, stubbled man who looked more like a feckless student than a serious scholar under Lord Ebbing’s wing. He might at least have changed his shirt, but there was no time for even that. He didn’t even know",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": ",",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " why he didn’t keep a change of clothes in the office for just such occasions.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He ran down the white steps worn glass-smooth, nearly bowling over two arguing scholars, then, with a flurry of apologies, he burst out into the foggy street. In Rivenstorm, October mornings were always foggy, casting even daytime into a ghostly mood over the West Coast’s largest port city. Caleb hunched into his brown leather coat and realized he’d left his hat upstairs. He hated hats anyway, and it wouldn’t have helped the overall impression, so he focused on not being late. Or at least, not very.",
+    "runs": [
+      {
+        "text": "He ran down the ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "white steps worn glass-smooth, ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "nearly bowling over two arguing scholars, then, with a flurry of apologies, he burst out into the foggy street. In Rivenstorm, October mornings were always foggy, ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "casting even daytime ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "into a ghostly mood over the West Coast’s largest port city. Caleb hunched into his brown leather coat and realized he’d left his hat upstairs. He hated hats anyway, and it wouldn’t have helped the overall impression, so he focused on not being late. Or at least, not very. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "He left the Academy’s domed building, lined on the outside with white columns and by now aged to green. The massive structure had stood in place for two hundred years, unshakable, proclaiming the importance of knowledge and research as the foundation of progress. More than a hundred scholars could call this place a second home; its lecture hall and library rivaled the university’s, and each floor housed those who studied a different branch of the natural sciences.",
+    "runs": [
+      {
+        "text": "He left the Academy’s domed building, lined on the outside with white columns and by now aged to green. The massive structure had stood in place for two hundred years, unshakable, proclaiming the importance of knowledge and research as the foundation of progress. More than a hundred scholars could call this ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "place a second home; its lecture hall and library rivaled the university’s, and each floor housed those who studied a different branch of the natural sciences. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Over time a little district grew up around the Academy to serve the workers’ needs. Restaurants, cafés, and shops opened, and the owners and Academy staff often knew each other not just by face but by name.",
+    "runs": [
+      {
+        "text": "Over time a little district grew up around the Academy to serve the workers’ needs. Restaurants, cafés, and shops opened, and the owners and Academy staff often knew each other not just by face but by name.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "Caleb couldn’t stop at the bakery, which tried to lure him in with the smell of fresh bread, coffee, and sweets, though he was hungry. He strode on, past a café where they were just setting out chairs and tables on the street, and then on past the little bookshop.",
+    "runs": [
+      {
+        "text": "Caleb ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "couldn’t ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "stop at the bakery, which tried to lure him in with the smell of fresh bread, coffee, and sweets",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": ", though he was hungry. He strode on, past a café where they were just setting out chairs and tables on the street,",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " and then on past the little bookshop.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "- Running late again, Mr. André? – asked the old woman standing in front of the nearby greengrocer’s.",
+    "runs": [
+      {
+        "text": "- Running late again, Mr. André? – asked the ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "nearby ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "old woman standing in front of the greengrocer’s.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  },
+  {
+    "text": "- I just always have to be somewhere other than where I am, Mrs. Mellow – Caleb answered, panting, a tired smile on his face. Mrs. Mellow snatched a shiny red apple from the counter, then tossed it toward him.",
+    "runs": [
+      {
+        "text": "- I just always have to be somewhere other than where I am, Mrs. Mellow",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": " – ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      },
+      {
+        "text": "Caleb answered, panting, a tired smile on his face. Mrs. Mellow snatched a shiny red apple from the counter, then tossed it toward him. ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+      }
+    ],
+    "formatting": [],
+    "style": "Normal"
+  }
+]
