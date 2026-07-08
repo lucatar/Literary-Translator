@@ -22,17 +22,15 @@ class Chunker:
             style = p.get("style", "Normal")
 
             # -----------------------
-            # HEADING → FORCE NEW CHUNK
+            # HEADING → START NEW CHUNK
             # -----------------------
             if style.startswith("Heading"):
 
                 if current_chunk:
                     chunks.append(current_chunk)
-                    current_chunk = []
-                    current_word_count = 0
 
-                # heading is its own chunk BUT KEEP FULL STRUCTURE
-                chunks.append([p])
+                current_chunk = [p]
+                current_word_count = word_count
                 continue
 
             # -----------------------

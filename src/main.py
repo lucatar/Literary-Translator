@@ -42,8 +42,6 @@ def run_pipeline(input_path: str, output_path: str):
     paragraphs = parser.read()          # LIST[str]
 
     structured = parser.read_structured()
-
-    print(structured[0])
     
     raw_text = "\n".join(paragraphs)    # STRING
 
@@ -54,8 +52,7 @@ def run_pipeline(input_path: str, output_path: str):
     scene_splitter = SceneSplitter()
     #scenes = scene_splitter.split(raw_text)   # STRING IN / STRING OUT
     scenes = scene_splitter.split_structured(structured)
-
-    #print(scenes[0])
+    
     
     # -------------------
     # 3. CHUNKING
@@ -70,7 +67,6 @@ def run_pipeline(input_path: str, output_path: str):
 
         scene_chunks = chunker.create_chunks_structured(scene)
         chunks.extend(scene_chunks)
-
     
     # -------------------
     # ANALYSIS CACHE
@@ -136,9 +132,14 @@ def run_pipeline(input_path: str, output_path: str):
 
             parser_ref = DocumentParser(reference_path)
             reference_translation = "\n".join(parser_ref.read())
+            source_text = "\n\n".join(
+                    "\n".join(p["text"] for p in chunk)
+                    for chunk in chunks
+                                    )
 
             style_profiles[pov] = style_builder.build_style(
-                source_text="\n".join(chunks),
+                #source_text="\n".join(chunks),
+                source_text = source_text,
                 reference_translation=reference_translation
             )
 
@@ -158,7 +159,10 @@ def run_pipeline(input_path: str, output_path: str):
 
         glossary_builder = GlossaryBuilder()
 
-        manuscript_text = "\n\n".join(chunks)
+        manuscript_text = "\n\n".join(
+                    "\n".join(p["text"] for p in chunk)
+                    for chunk in chunks
+                                    )
 
         glossary = glossary_builder.build_glossary(manuscript_text)
 
@@ -186,7 +190,7 @@ def run_pipeline(input_path: str, output_path: str):
     )
 
     translated_chunks = engine.translate_document(
-        chunks[:2],
+        chunks,
         style_profiles,
         pov_analysis,
         glossary

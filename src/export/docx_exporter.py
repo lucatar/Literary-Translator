@@ -8,16 +8,6 @@ class DocxExporter:
 
         self.doc = Document()
 
-        p = self.doc.add_paragraph()
-        r = p.add_run("DEBUG")
-        r.italic = True
-
-        print(type(self.doc))
-        print(self.doc)
-        print("DEBUG italic:", r.italic)
-        print(r._element.xml)
-
-
     def add_chunks(self, chunks):
 
         for chunk in chunks:
@@ -48,7 +38,7 @@ class DocxExporter:
                 # CASE 2: fallback runs
                 # -----------------------
                 if runs:
-                    print("Beléptem a runs-ba")
+
                     cursor = 0
 
                     for r in runs:
